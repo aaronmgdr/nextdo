@@ -6,12 +6,6 @@
   src: url(fonts/IMPOS2.ttf);
 }
 
-@font-face
-{
-  font-family: Impossible2;
-  src: url(fonts/IMPOS3.ttf);
-}
-
 h1{
   color: #09c12b;
   font-size: 3em;
@@ -41,7 +35,7 @@ h3 {
   color: #09c12b;
 }
 
- li {
+ li .item {
 border-bottom: 1px dotted grey;
 }
 
