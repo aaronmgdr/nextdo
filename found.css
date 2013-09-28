@@ -6,12 +6,6 @@
   src: url(fonts/IMPOS2.ttf);
 }
 
-@font-face
-{
-  font-family: Impossible2;
-  src: url(fonts/IMPOS3.ttf);
-}
-
 h1{
   color: #09c12b;
   font-size: 3em;
@@ -31,7 +25,7 @@ h3 {
   padding:.4em 1.5em; 
   /*background-color: rgba(22, 48, 23, 0.2);*/
   margin: 2px 0px;
-  list-style-type: lower-greek; 
+  list-style-type: square; 
 }
 .white {
   color: #fff;
@@ -41,7 +35,7 @@ h3 {
   color: #09c12b;
 }
 
- li {
+ li .item {
 border-bottom: 1px dotted grey;
 }
 
