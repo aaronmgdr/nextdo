@@ -5,28 +5,23 @@
   font-family: Impossible;
   src: url(fonts/IMPOS2.ttf);
 }
-
-h1{
-  color: #09c12b;
-  font-size: 3em;
-  font-family: Impossible, sans-serif;
-  margin: 0 auto;
-}
-
-h3 {
-  text-align: center;
-}
 .item, h4, p, li  {
   font-family: 'Lekton', sans-serif;
   color: #09c12b;
   font-weight: normal;
 }
-.item {
-  padding:.4em 1.5em; 
-  /*background-color: rgba(22, 48, 23, 0.2);*/
-  margin: 2px 0px;
-  list-style-type: square; 
+
+h3 {
+  text-align: center;
 }
+
+h1{
+  color: #09c12b;
+
+  font-family: Impossible, sans-serif;
+  margin: 0 auto;
+}
+
 .white {
   color: #fff;
 }
@@ -35,14 +30,8 @@ h3 {
   color: #09c12b;
 }
 
- li .item {
-border-bottom: 1px dotted grey;
-}
-
-i {
-/*  vertical-align: middle;*/
-
-
+#todo-list li  {
+  border-bottom: 1px dotted grey;
 }
 
 .Absolute-Center {
@@ -56,26 +45,57 @@ i {
   vertical-align: center;
 }
 
+
+
+body {
+  background-color: #333;
+  background-image: url(images/world.gif);
+}
+
+/* end universal  */
+
+/*@media only screen and (orientation: portrait) {
+  html {
+    font-size: 200%;
+  }
+  body {
+  background-size: auto 1136px ;
+  }
+
+  h1 {
+    font-size: 5px;
+  }
+}*/
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin-top:50px ;
+    position: absolute;
+  }
+}
+
+body {
+  background-size: cover;
+}
+
+
+h1 {
+  font-size: 3em;
+}
+
+.item {
+  padding:.4em 1.5em; 
+  /*background-color: rgba(22, 48, 23, 0.2);*/
+  margin: 2px 0px;
+  list-style-type: square; 
+}
+
 .container {
   margin-top:0px ;
   position: absolute;
 }
-@media only screen and (min-width: 768px) 
-  {
-    .container {
-  margin-top:50px ;
-  position: absolute;
-    }
 
-  }
-
-body {
-/*  background-image: url(images/MI-Back.jpg);
-*/  background-color: #eee;
-    background-image: url(images/world.gif);
-    background-size: auto 900px ;
-    /*sizing background to be full screen and not repeat */
-  }
 
 .box {
   background: rgba(0, 0, 0, 0.8);
@@ -123,19 +143,6 @@ button {
   width: 80%;
   display: block;
   margin: 0 auto;
-}
-
-.disclaim {
-  color: #cecece;
-  font-size: .8em;
-  padding: 2em;
-  margin-bottom: 0;
-  font-style: italic;
-  text-align: center;
-}
-
-.fail{
-  background-image:url(images/FireBIG.jpg);
 }
 
 #due-time{
