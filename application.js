@@ -210,6 +210,7 @@ var auth = new FirebaseSimpleLogin(firebaseAuth, function(error, user) {
         auth.id = user.id;
         auth.name = user.name;
         auth.provider = "facebook";
+        $('.username').text(user.last_name);
         $('.auth').show();
         $('.noauth').hide();
     } else {  
@@ -223,7 +224,7 @@ $(document).on('click', '.login', function () {
     auth.login('facebook');
 });
 
-$(document).on('click', '.icon-key', function () {
+$(document).on('click', '.logout', function () {
     auth.logout();
 });
 
