@@ -210,9 +210,11 @@ var auth = new FirebaseSimpleLogin(firebaseAuth, function(error, user) {
         auth.id = user.id;
         auth.name = user.name;
         auth.provider = "facebook";
+        window.user = user;
         $('.username').text(user.last_name);
         $('.auth').show();
         $('.noauth').hide();
+        $('#todo-list').show();
     } else {  
         console.log('logout');
         $('.auth').hide();
@@ -231,6 +233,7 @@ $(document).on('click', '.logout', function () {
 $(document).ready(function () {
     "use strict";
     window.running = false;
+    $('#todo-list').hide();
     // Create reference to Firebase database
     $('#countdown').hide();
     startCountdown();
