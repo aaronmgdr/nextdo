@@ -78,7 +78,7 @@ function timer() {
             });
         }
 
-        message = "This message will self destruct in: ";
+        message = "This Mission will self destruct in: ";
         hours = (Math.floor(timeLeft / 60 / 60)) % 24;
         minutes = (Math.floor(timeLeft / 60)) % 60;
         seconds = timeLeft % 60;
@@ -205,7 +205,7 @@ var auth = new FirebaseSimpleLogin(firebaseAuth, function(error, user) {
     if (error) {
         console.log("Login error: ", error.code);
     } else if (user) {
-        $('h1').html('Welcome agent ' + user.last_name);
+        $('h1').html('Welcome Agent ' + user.last_name);
         console.log('drive updated');
         auth.id = user.id;
         auth.name = user.name;
