@@ -11,6 +11,17 @@
   font-weight: normal;
 }
 
+.item {
+  padding:.4em 1.5em; 
+  /*background-color: rgba(22, 48, 23, 0.2);*/
+  margin: 2px 0px;
+  list-style-type: square; 
+}
+
+.item:hover {
+  cursor:pointer;
+}
+
 .auth {
   display:none;
 }
@@ -80,13 +91,6 @@ body {
 
 h1 {
   font-size: 3em;
-}
-
-.item {
-  padding:.4em 1.5em; 
-  /*background-color: rgba(22, 48, 23, 0.2);*/
-  margin: 2px 0px;
-  list-style-type: square; 
 }
 
 .container {

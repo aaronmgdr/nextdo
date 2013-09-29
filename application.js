@@ -122,7 +122,7 @@ function start() {
 var displayNewTask = function (name, complete) {
     "use strict";
     if (complete === false) {
-        $('<li class="item"/>').text(name).prependTo($('#todo-list'));
+        $('<li title="mark objective complete" class="item"/>').text(name).prependTo($('#todo-list'));
     } else {
         if (name !== true) {//For some reason, it kept printing 'true'
             $('#todo-list').append($('<li class="item checked"/>').text(name));
