@@ -5,10 +5,19 @@
   font-family: Impossible;
   src: url(fonts/IMPOS2.ttf);
 }
-.item, h4, p, li  {
+.item, h4, p, li, em  {
   font-family: 'Lekton', sans-serif;
   color: #09c12b;
   font-weight: normal;
+}
+
+.briefing {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+
+.mission-active {
+  display: none;
 }
 
 .item {

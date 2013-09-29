@@ -153,6 +153,8 @@ $(document).on('click', '.item', function () {
 $(document).on('click', '#start', function (e) {
     "use strict";
     e.preventDefault();
+    $('.briefing').hide();
+    $('.mission-active').show();
 
     timeLeft = $('#minutes').val();
     // convert to seconds
