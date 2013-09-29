@@ -54,15 +54,6 @@ body {
 
 /* end universal  */
 
-@media only screen and (orientation: portrait) {
-  html {
-    font-size: 200%;
-  }
-  body {
-  background-size: auto 1136px ;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   .container {
     margin-top:50px ;
