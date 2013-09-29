@@ -181,6 +181,11 @@ input[type="text"] {
   padding: .4em;
   
 }
+
+#start:hover, .logout:hover, .login  {
+cursor: pointer;
+}
+
 .nav {
   padding-left: 1.5em;
   padding-top: .3em;
