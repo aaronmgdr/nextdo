@@ -54,31 +54,25 @@ body {
 
 /* end universal  */
 
-/*@media only screen and (orientation: portrait) {
+@media only screen and (orientation: portrait) {
   html {
     font-size: 200%;
   }
   body {
   background-size: auto 1136px ;
   }
-
-  h1 {
-    font-size: 5px;
-  }
-}*/
-
+}
 
 @media only screen and (min-width: 768px) {
   .container {
     margin-top:50px ;
     position: absolute;
-  }
+  } 
 }
 
 body {
   background-size: cover;
 }
-
 
 h1 {
   font-size: 3em;
