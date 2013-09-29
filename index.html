@@ -3,7 +3,7 @@
 <head>
   <meta name="viewport" content="width=device-width" />
   <meta charset="UTF-8">
-  <title>Mission List</title>
+  <title>Mission List: The Get Shit Done List for Secret Agents</title>
   <link rel="stylesheet" type="text/css" href="vendor/foundation.css">
   <link rel="stylesheet" type="text/css" href="found.css">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
@@ -31,7 +31,7 @@
       <div class="column large-8 small-12 Absolute-Center ">
         <div class="row box">
           <h1 class="center"> { MI:List }</h1>
-        <h4 class="center auth"> Enter objectives to complete before this mission self destructs
+          <h4 class="center auth"> Enter objectives to complete before this mission self destructs
           </h4>
           <h4 class="noauth green center"><i class="icon-spinner icon-spin icon-large "></i>
             <br> Waiting for Identity Verification
@@ -50,7 +50,7 @@
             <input type='text' class="auth" name='task' id='task' placeholder='Enter Objectives:'>
           </form>
         </div> 
-        <div class='row box'>
+        <div class='row box auth'>
           <p class="center">Your mission should you choose to accept it ...</p>
           <div id="todo-list" class="todo-list"></div>
         </div>
@@ -61,8 +61,8 @@
           </form>
         </div>
         <!--.auth display:none doesnt work when hide-for-x is on the same element, .auth is place on inner div-->
-        <div class="row center box hide-for-medium-up ">
-          <div class="button auth logout">
+        <div class="row center box auth ">
+          <div class="button hide-for-medium-uplogout">
             <i class="icon-key icon-large"></i>
             Logout
           </div>  

@@ -52,22 +52,31 @@ h1{
 
 
 body {
-  background-color: #333;
+  background-color: #000;
   background-image: url(images/world.gif);
+  background-size: auto 900px;
+  background-repeat: repeat-y;
+
 }
+
 
 /* end universal  */
 
 @media only screen and (min-width: 768px) {
   .container {
-    margin-top:50px ;
-    position: absolute;
+    margin-top:50px;
   } 
 }
 
-body {
-  background-size: cover;
+@media only screen and (min-width: 900px) {
+
+  body {
+    background-size:110%;
+    background-position: 0px 45px;
+  }
 }
+
+
 
 h1 {
   font-size: 3em;
@@ -89,9 +98,9 @@ h1 {
 .box {
   background: rgba(0, 0, 0, 0.8);
   padding: 2%;
-  border-radius: 10px;
+  padding-left:1em;
+  padding-right:1em;  
   border-width: 2px;
-  border-color: #26d632;
 }
 
 button {
