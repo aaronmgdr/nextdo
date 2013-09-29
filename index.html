@@ -60,8 +60,9 @@
             <button type='button' id="start">Accept Mission</button>
           </form>
         </div>
-        <div class="row center box hide-for-medium-up auth">
-          <div class="button logout">
+        <!--.auth display:none doesnt work when hide-for-x is on the same element, .auth is place on inner div-->
+        <div class="row center box hide-for-medium-up ">
+          <div class="button auth logout">
             <i class="icon-key icon-large"></i>
             Logout
           </div>  

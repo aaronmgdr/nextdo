@@ -11,6 +11,10 @@
   font-weight: normal;
 }
 
+.auth {
+  display:none;
+}
+
 h3 {
   text-align: center;
 }
