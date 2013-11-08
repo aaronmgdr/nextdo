@@ -1,18 +1,23 @@
-Mission List
+[Mission List](fremn.github.co/nextdo)
 ======
 
-##### *The To do list for secret agents*
+*The To Do list for Secret Agents*
 
-### Todo list of your next actions, which disappears after set duration
+#### Built for the Makersquare Week 4 Hackathon 
 
-Built with jQuery and Firebase API
+### A Todo list of your next actions, which disappears after set duration
 
-1.0
+#### Technologies 
+
+Built with jQuery and Firebase
+
+#### Live Site
+
+[fremn.github.co/nextdo](fremn.github.co/nextdo)
 
 
 
-///
+## Contributors 
 
-### TODO css
-
-* main content margin decrease on smaller screens yo.
+* [Nick Smith](github.com/github.com/nicholaspsmith) -- Javascripter
+* Fremen DeRuvo -- HTML, CSS, jQuery, and more
