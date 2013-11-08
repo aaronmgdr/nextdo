@@ -9,7 +9,7 @@
 
 #### Technologies 
 
-Built with jQuery and Firebase
+Built with jQuery, Firebase and Facebook Login
 
 #### Live Site
 
