@@ -19,5 +19,5 @@ Built with jQuery, Firebase and Facebook Login
 
 ## Contributors 
 
-* [Nick Smith](github.com/nicholaspsmith) -- Javascript, JQuery, CSS
+* [Nick Smith](http://www.github.com/nicholaspsmith) -- Javascript, JQuery, CSS
 * Fremen DeRuvo -- HTML, CSS, jQuery, and more
