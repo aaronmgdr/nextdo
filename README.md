@@ -13,7 +13,7 @@ Built with jQuery, Firebase and Facebook Login
 
 #### Live Site
 
-[fremn.github.co/nextdo](http://fremn.github.co/nextdo)
+[fremn.github.io/nextdo](http://fremn.github.io/nextdo)
 
 
 
